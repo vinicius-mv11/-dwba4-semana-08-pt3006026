@@ -31,7 +31,7 @@ class aluno {
   }
 
   situacao() {
-    if (this.media() > 0.6)
+    if (this.media() > 6)
       return 'Aprovado';
     else
       return 'Reprovado';
